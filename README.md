@@ -24,3 +24,7 @@ The built site will be in `dist/`. Open `dist/index.html` in a browser to view i
 In the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source. The workflow deploys after a successful push to `main`.
 
 GitHub Pages publishes a public website. On GitHub Free, the repository must also be public to use Pages.
+
+## Pull request workflow check
+
+This change checks that GitHub Actions runs for pull requests.
