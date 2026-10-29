@@ -1,0 +1,99 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #18233b;
+  background: #f2f5fb;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 32px 18px;
+  background: radial-gradient(circle at top left, #e7eaff, transparent 42%), #f2f5fb;
+}
+
+.card {
+  width: min(100%, 720px);
+  padding: clamp(28px, 7vw, 64px);
+  background: #fff;
+  border: 1px solid #e1e6f0;
+  border-radius: 24px;
+  box-shadow: 0 22px 70px #263b6518;
+}
+
+.eyebrow {
+  margin: 0 0 18px;
+  color: #5c54c7;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 4.4rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.intro {
+  max-width: 540px;
+  margin: 24px 0 32px;
+  color: #5f6b82;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.steps {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steps li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 17px;
+  border: 1px solid #edf0f6;
+  border-radius: 12px;
+  color: #39465e;
+}
+
+.steps span {
+  color: #7169dc;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 28px 0 0;
+  color: #438365;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #45b77b;
+  box-shadow: 0 0 0 4px #45b77b20;
+}
+
+footer {
+  margin-top: 22px;
+  color: #8a94a8;
+  font-size: 0.85rem;
+  text-align: center;
+}
